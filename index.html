@@ -1,1 +1,81 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<title>Benjamin Santalucia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	html,
+	body {
+		font-family: 'Roboto', sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	.link-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.link-item {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: #1bb3e9;
+		text-decoration: none;
+		margin: 1rem;
+	}
+
+	.link-item:hover {
+		color: #0e6e90;
+	}
+
+	.name {
+		text-transform: uppercase;
+		box-shadow: 0 12px 20px -12px #f1f1f1;
+		border-bottom: 1px solid #f1f1f1;
+		margin: 2rem 0;
+		padding: 0 2rem 2rem;
+	}
+</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="name">Benjamin Santalucia</h1>
+	<ul class="link-list">
+		<li>
+			<a class="link-item" href="https://stackoverflow.com/cv/bsantalucia">
+				<img src="./resume.png" alt="resume" title="resume" />
+				Online resume
+			</a>
+		</li>
+		<li>
+			<a class="link-item" href="https://github.com/ben8p">
+				<img src="./github.png" alt="github" title="github" />
+				Check out my code on github
+			</a>
+		</li>
+		<li>
+			<a class="link-item" href="https://www.linkedin.com/in/santalucia">
+				<img src="./linkedin.png" alt="LinkedIn" title="LinkedIn" />
+				View my profile on LinkedIn
+			</a>
+		</li>
+		<li>
+			<a class="link-item" href="https://stackoverflow.com/users/1850322/ben">
+				<img src="./stackoverflow.png" alt="stackoverflow" title="stackoverflow" />
+				I am also active on stackoverflow
+			</a>
+		</li>
+	</ul>
+</body>
+
+</html>
