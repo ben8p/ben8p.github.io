@@ -13,7 +13,7 @@
         />
         <meta name="theme-color" content="#1e5e3f" />
         <meta name="description" content="Golf Swing Tempo" />
-
+        <link rel="icon" type="image/png" href="icon-192.png" />
         <!-- PWA Manifest -->
         <link rel="manifest" href="manifest.json" />
 
