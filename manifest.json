@@ -1,0 +1,16 @@
+{
+    "name": "Golf Swing Tempo",
+    "short_name": "Golf Tempo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f0f8f0",
+    "theme_color": "#1e5e3f",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 192 192%22%3E%3Crect width=%22192%22 height=%22192%22 fill=%22%231e5e3f%22/%3E%3Ctext x=%2296%22 y=%22120%22 font-family=%22Arial%22 font-size=%2280%22 fill=%22white%22 text-anchor=%22middle%22%3E🏌️%3C/text%3E%3C/svg%3E",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        }
+    ]
+}
